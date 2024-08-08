@@ -550,7 +550,7 @@ html , body{
         display: flex;
        align-items: center;
        justify-content: space-between;
-       padding: 5vw;
+       padding: 2vw 2vw;
        /* margin-top: 2vw; */
        /* background-color: red; */
     }
@@ -559,10 +559,10 @@ html , body{
     }
     #info2>img{
         /* margin-left: 10vw; */
-       margin-left: 7vw;
+        margin-left: 7vw;
         
         width:  90%;
-        height: auto;
+        /* height: 90vw; */
     }
     .top{
         height: 50%;
@@ -571,20 +571,30 @@ html , body{
         margin-bottom: 7vw;
     
     }
+    .top:hover{
+        transform: scale(1.1);
+        transition: ease-out 0.3s ;
+    }
     .info786{
         display: flex;
         /* justify-content: space-around; */
-        text-align: center;
+        /* text-align: center; */
         /* align-items: center; */
         /* gap: 3vw; */
-        border-radius: 5vw;
-        box-shadow: 2px 5px 15px #76877a;
-        width: 60vw;
+        border-radius: 1vw;
+        box-shadow: 2px 2px 15px #76877a;
+        width: 80vw;
         height: 10vw;
     }
-    .info786>h6{
+    .info786>h4{
         margin-top: 1vh;
+        margin-left: 12vw;
+
         
+    }
+    .info786>img{
+        height: 8vw;
+        margin-left: 2vw;
     }
     .top2{
         display: flex;
@@ -606,22 +616,41 @@ html , body{
         text-align: center;
         height: 10vw;
         width: 96vw;
-        
+        margin-left: 2.5vw;
         box-shadow: 2px 5px 15px #76877a;
+    }
+    .logo:hover{
+        transform: scale(1.1);
+        transition: ease-out 0.2s;
     }
     .logo>h6{
        padding-top: 1.5vh;
     }
     .b{
-        margin-left: 35vw;
+        margin-left: 17vw;
+        height: 8vw;
+        width: 60vw;
+        /* margin-left: 35vw; */
+        border-radius: 1vw;
+        box-shadow: 2px 2px 15px #76877a;
+    }
+    .b:hover{
+        transform: scale(1.1);
+        transition: ease-out 0.2s;
     }
     .b101{
         display: flex;
         align-items: center;
         /* text-align: center; */
         gap: 2vw;
-        margin-top: 8vw;
-        
+        margin-top: 9vw;
+        margin-left: 15vw;
+    }
+    .b101>img{
+        margin-top: 1vw;
+    }
+    .b101>h6{
+        margin-top: 1vw;
     }
     .P01{
         margin-top: 18vw;
@@ -653,7 +682,7 @@ html , body{
         
     }
     .border1{
-        margin-left: 2.5vw;
+        margin-left: 5vw;
         margin-top: 5vw;
         text-align: center;
         height: 60vw;
@@ -678,7 +707,7 @@ html , body{
         margin-top: 15vw;
         color: #F85E9F;
         font-size: 5vw;
-        letter-spacing: 1vw;
+        /* letter-spacing: 1vw; */
     }
     .destination>h3{
         text-align: center;
@@ -706,17 +735,29 @@ html , body{
         border-radius: 5vw;
         background-color: #5D50C6;
     }
+        .mainbox{
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* text-align: center; */
+        }
     .box1-1{
        /* margin-left: 6vw;  */
         margin-top: 15vw;
         height: 80%;
         width: 92vw;
-        margin-left: 2vw;
+        /* margin-left: 2vw; */
         /* width: 60vw; */
         /* border: 1px solid rgba(118, 113, 113, 0.205); */
         border-radius: 8vw;
         box-shadow: 2px 5px 15px #76877a;
         
+    }
+    .box1-1>img:hover{
+        transform: scale(0.9);
+        transition: ease-out 0.1s;
     }
     .box1-1>img{
         /* margin-left: 1.5vw; */
@@ -756,15 +797,15 @@ html , body{
         color: #F85E9F;
         font-size: 5vw;
     }
-    #img{
-        /* margin-top: 25vw; */
-        padding-top: 20vw;
+    #img0000{
+        
+        margin: 8vw;
+        margin-top: 25vw;
+    
     }
-    #img>img{
-        /* margin-top: 20vw; */
-        height: 80vw;
-        width: 80vw;
-        /* margin-right: 2vw; */
+    #img0000>img{
+        height: auto;
+        width: 90vw;
 
     }
     .travel{
@@ -774,7 +815,7 @@ html , body{
     .travel>h6{
         margin-top: 5vw;
         color: #F85E9F;
-        letter-spacing: 1vw;
+        /* letter-spacing: 1vw; */
         font-size: 4vw;
     }
     .travel>p{
@@ -789,14 +830,21 @@ html , body{
        font-size: 4vw;
     }
     .newbox{
-        width: 80vw;
-        margin-left: 8vw;
+        width: 50vw;
+        margin-left: 25vw;
         margin-top: 10vw;
+        /* align-items: center; */
         text-align: center;
         /* border: 2px solid black; */
-        border-radius: 8px;
+        /* border-radius: 8px; */
         padding: 5vw;
+        /* box-shadow: 1px 1px 15px #76877a; */
+    }
+    .newbox:hover{
+        /* width: 80vw; */
+        transform: scale(1.5);
         box-shadow: 1px 1px 15px #76877a;
+        border-radius: 8px;
     }
     .newbox>h5{
         margin-top: 4vw;
@@ -806,13 +854,19 @@ html , body{
         color: orangered;
     }
     .mainimg>img{
-        height: 110vw;
+
+        height: 100vw;
+        width: 80vw;
+        margin-top: 15vw;
        
     }
     .mainimg{
-        
-        margin-left: 5vw;
-        margin-top: 25vw;
+         display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;    
+        /* margin-left: 5vw;
+        margin-top: 25vw; */
     }
     .key{
         text-align: center;
@@ -821,7 +875,7 @@ html , body{
     .key>h6{
         color: #F85E9F;
         font-size: 4vw;
-        letter-spacing: 1vw;
+        /* letter-spacing: 1vw; */
     }
     .key>h1{
         margin-top: 8vw;
@@ -854,16 +908,23 @@ html , body{
         margin-top: 2vw;
     }
     .picture1{
+        height: 65vw;
+        margin-bottom: 5vw;
         margin: 8vw;
         margin-top: 10vw;
         /* border: 2px solid black; */
-        border-radius: 10px;
+        border-radius: 5px;
         box-shadow: 1px 1px 15px #76877a;
+    }
+    .picture1:hover{
+        transform: scale(1.1        );
+        transition: ease-out 0.1s;
     }
         .picture1>img{
             margin-top: 5vw;
             margin-left: 5vw;
             height: 25vw;
+            /* margin-bottom: 5vw; */
         }
         .dis{
             margin-top: 8vw;
@@ -873,6 +934,7 @@ html , body{
         .dis>p{
             color: #76877a;
             margin-top: 2vw;
+            margin-bottom: 5vw;
         }
     .testimonial{
         text-align: center;
@@ -881,6 +943,10 @@ html , body{
     .testimonial>img{
         height: 25vw;
         margin-top: 15vw;
+    }
+    .testimonial>img:hover{
+        transform: scale(1.5);
+        transition: ease-out 0.1s;
     }
     .allimg>img{
         height: 8vw;
@@ -912,6 +978,10 @@ html , body{
     color: #F85E9F;
     margin-top: 10vw;
    }
+   .fa-circle:hover{
+    transform: scale(1.9);
+        transition: ease-out 0.1s;
+   }
 .arrow123{
     display: flex;
     justify-content: space-between;
@@ -923,21 +993,40 @@ html , body{
         height: 15vw;
         width: 15vw;
         border-radius: 7.5vw;
-        background-color: #DEFFE5;
+        /* background-color: #DEFFE5; */
         /* color: antiquewhite; */
 
     }
     .a1>i{
         margin-top: 5vw;
     }
+    .a1>i:hover{
+        transform: scale(1.9);
+        transition: ease-out 0.1s;
+    }
+    .mainfooter{
+        /* height: 100vw; */
+        margin-top: 10vw;
+        padding: 8vw;
+        /* border-radius: 3vw; */
+    }
+    .main2f{
+        
+        
+        width: 85vw;
+        border-radius: 5vw;
+        padding: 2vw 5vw;
+        background-color: #faeec8;
+    }
     .footer{
+        margin-bottom: 8vw;
         text-align: center;
-        margin-top: 15vw;
+        margin-top: 8vw;
     }
     .footer>p{
         color: #F85E9F;
         font-size: 4vw;
-        letter-spacing: 1vw;
+        /* letter-spacing: 1vw; */
         font-weight: 600;
     }
     .footer>h6{
@@ -961,10 +1050,16 @@ html , body{
         width: 70vw;
         background-color: #5D50C6;
         border-radius: 3vw;
-        margin-left: 12vw;
-        margin-top: 10vw;
+        margin-left: 3vw;
+        margin-top: 5vw;
         color: aliceblue;
         padding: 5.5vw 0;
+    }
+    .footer>h5:hover{
+        transform: scale(1.1);
+        transition: ease-out 0.3s;
+        color: #F85E9F;
+        background-color: #DEFFE5;
     }
     .lastf{
         padding: 0 3vw;
@@ -1006,6 +1101,11 @@ html , body{
     }
     .infoo1>img{
         height: 7vw;
+    }
+    .infoo1>img:hover{
+        transform: scale(1.9);
+        transition: ease-out 0.1s;
+        
     }
 
 }
